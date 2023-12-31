@@ -20,5 +20,10 @@ let x = setInterval(function(){
         clearInterval(x)
         document.getElementById("timer").innerHTML = "Happy New Year!";
         document.getElementById("countdown").style.display = "none"
-    }    
+    } else{
+        document.getElementById("fireworks1").style.display = "none"
+        document.getElementById("fireworks2").style.display = "none"
+        document.getElementById("fireworks3").style.display = "none"
+        document.getElementById("fireworks4").style.display = "none"
+    }
 }, 1000)
