@@ -18,6 +18,7 @@ let x = setInterval(function(){
     
     if (difference = 0) {
         clearInterval(x)
-        document.querySelector("#timer").textContent = "Happy New Year!"
+        document.querySelector("#timer").textContent = "Happy New Year!";
+        document.querySelector("#countdown").style.display = "none"
     }    
 }, 1000)
