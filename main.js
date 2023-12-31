@@ -1,5 +1,5 @@
 const newYear = new Date("2024-01-01T00:00:01").getTime()
-const now = Date().getTime()
+let now = Date.now()
 
 let x = setInterval(function(){
     let element = document.body
