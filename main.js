@@ -1,8 +1,8 @@
 const newYear = new Date("2024-01-01T00:00:01").getTime()
-let now = Date.now()
 
 let x = setInterval(function(){
     let element = document.body
+    let now = Date.now()
     let difference = newYear - now
 
     let days = Math.floor(difference / (1000 * 60 * 60 * 24));
