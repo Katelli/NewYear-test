@@ -20,9 +20,5 @@ let x = setInterval(function(){
         clearInterval(x)
         document.querySelector("#timer").textContent = "Happy New Year!";
         document.querySelector("#countdown").style.display = "none"
-        document.querySelector("#fireworks1").style.display = "none"
-        document.querySelector("#fireworks2").style.display = "none"
-        document.querySelector("#fireworks3").style.display = "none"
-        document.querySelector("#fireworks4").style.display = "none"
     }    
 }, 1000)
