@@ -1,7 +1,309 @@
 #countdown{
     font-size: 64px;
+    position: absolute;
+    top: 200px;
+    z-index: 99;
 }
 
-.h1{
+#timer{
     font-size: 56px;
+    position: absolute;
+    top: 300px;
+    z-index: 99;
+}
+
+#fireworks1{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    z-index: 1;
+    height: 120px;
+    width: 120px;
+}
+
+#fireworks2{
+    position: absolute;
+    top: 200px;
+    right: 70px;
+    z-index: 1;
+    height: 160px;
+    width: 160px;
+}
+
+#fireworks3{
+    position: absolute;
+    top: 550px;
+    right: 200px;
+    z-index: 1;
+    height: 120px;
+    width: 120px;
+}
+
+#fireworks4{
+    position: absolute;
+    top: 550px;
+    left: 150px;
+    z-index: 1;
+    height: 160px;
+    width: 160px;
+}
+
+.cube-p-u{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: plum;
+    animation: fireworks1 8s ease-out 6s infinite reverse;
+}
+
+.cube-p-d{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: plum;
+    animation: fireworks2 8s ease-out 6s infinite reverse;
+}
+
+.cube-p-r{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: plum;
+    animation: fireworks3 8s ease-out 6s infinite reverse;
+}
+
+.cube-p-l{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: plum;
+    animation: fireworks4 8s ease-out 6s infinite reverse;
+}
+
+.cube-b-d1{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: aqua;
+    animation: Dfireworks1 8s ease-out 6s infinite reverse;
+}
+
+.cube-b-d2{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: aqua;
+    animation: Dfireworks2 8s ease-out 6s infinite reverse;
+}
+
+.cube-b-d3{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: aqua;
+    animation: Dfireworks3 8s ease-out 6s infinite reverse;
+}
+
+.cube-b-d4{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: aqua;
+    animation: Dfireworks4 8s ease-out 6s infinite reverse;
+}
+
+.cube-g-u{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: green;
+    animation: fireworks1 8s ease-out 6s infinite reverse;
+}
+
+.cube-g-d{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: green;
+    animation: fireworks2 8s ease-out 6s infinite reverse;
+}
+
+.cube-g-r{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: green;
+    animation: fireworks3 8s ease-out 6s infinite reverse;
+}
+
+.cube-g-l{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: green;
+    animation: fireworks4 8s ease-out 6s infinite reverse;
+}
+
+.cube-r-d1{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: red;
+    animation: Dfireworks1 8s ease-out 6s infinite reverse;
+}
+
+.cube-r-d2{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: red;
+    animation: Dfireworks2 8s ease-out 6s infinite reverse;
+    
+}
+
+.cube-r-d3{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: red;
+    animation: Dfireworks3 8s ease-out 6s infinite reverse;
+}
+
+.cube-r-d4{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: red;
+    animation: Dfireworks4 8s ease-out 6s infinite reverse;
+}
+
+
+/*Big cubes*/
+.b-cube-p-d1{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: plum;
+    animation: Dfireworks1 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-p-d2{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: plum;
+    animation: Dfireworks2 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-p-d3{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: plum;
+    animation: Dfireworks3 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-p-d4{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: plum;
+    animation: Dfireworks4 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-b-u{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: aqua;
+    animation: fireworks1 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-b-d{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: aqua;
+    animation: fireworks2 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-b-r{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: aqua;
+    animation: fireworks3 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-b-l{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: aqua;
+    animation: fireworks4 8s ease-out 6s infinite reverse;
+}
+
+
+.b-cube-r-d1{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: red;
+    animation: Dfireworks1 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-r-d2{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: red;
+    animation: Dfireworks2 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-r-d3{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: red;
+    animation: Dfireworks3 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-r-d4{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: red;
+    animation: Dfireworks4 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-g-u{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: green;
+    animation: fireworks1 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-g-d{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: green;
+    animation: fireworks2 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-g-r{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: green;
+    animation: fireworks3 8s ease-out 6s infinite reverse;
+}
+
+.b-cube-g-l{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: green;
+    animation: fireworks4 8s ease-out 6s infinite reverse;
 }
