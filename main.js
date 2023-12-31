@@ -20,4 +20,4 @@ let x = setInterval(function(){
         clearInterval(x)
         document.querySelector("#timer").textContent = "Happy New Year!"
     }    
-})
+}, 1000)
