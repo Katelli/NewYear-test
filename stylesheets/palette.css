@@ -1,0 +1,25 @@
+:root{
+    --color-primary: #1eb9d8;
+    --color-secondary: #252323;
+}
+
+.night-mode{
+    --color-primary: #151414; 
+    --color-secondary: #d5d5d5; 
+}
+
+.bg-primary{
+    background-color: var(--color-primary);
+}
+
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
+
+.fg-primary{
+    color: var(--color-primary);
+}
+
+.fg-secondary{
+    color: var(--color-secondary);
+}
