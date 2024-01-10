@@ -1,4 +1,4 @@
-const newYear = new Date("2024-01-01T00:00:01").getTime()
+const newYear = new Date("2025-01-01T00:00:01").getTime()
 
 let x = setInterval(function(){
     let element = document.body
